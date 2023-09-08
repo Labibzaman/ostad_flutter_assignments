@@ -10,10 +10,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 100,
+          elevation: 70,
             backgroundColor: Colors.green,
-            leading: Icon(Icons.home),
+            leading: Icon(Icons.add_business),
             title: Center(
                 child: Row(
+
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Expanded(
@@ -48,7 +51,9 @@ class MyApp extends StatelessWidget {
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
-              TextSpan(text: 'phone', style: TextStyle(color: Colors.blue)),
+              TextSpan(
+                  text: 'phone',
+                  style: TextStyle(color: Colors.blue)),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
