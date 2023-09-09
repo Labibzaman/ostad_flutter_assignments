@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                   'This is my Mod 5 Assignment',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 18,
+                    fontSize: 17,
                   ),
                 ),
               ),
@@ -61,13 +61,14 @@ class MyApp extends StatelessWidget {
                       color: Colors.blue
                   )),
               WidgetSpan(
-                child: SizedBox(width: 8), // Add space here
+                child: SizedBox(width:4), // Add space here
               ),
               TextSpan(
                   text: 'name',
                   style: TextStyle(
                       color: Colors.purple,
-                      fontWeight: FontWeight.bold
+                      fontWeight: FontWeight.bold,
+                    fontSize:17,
                   )),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
