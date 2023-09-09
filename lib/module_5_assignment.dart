@@ -44,7 +44,8 @@ class MyApp extends StatelessWidget {
               ),
             ),
             RichText(
-                text: TextSpan(children: [
+                text: TextSpan(
+                    children: [
               TextSpan(
                   text: 'My',
                   style: TextStyle(color: Colors.red, fontSize: 34)),
@@ -82,7 +83,8 @@ class MyApp extends StatelessWidget {
               WidgetSpan(
                 child: SizedBox(width: 10), // Add space here
               ),
-            ]))
+            ])
+            ),
           ],
         ),
       ),
