@@ -48,38 +48,54 @@ class MyApp extends StatelessWidget {
                     children: [
               TextSpan(
                   text: 'My',
-                  style: TextStyle(color: Colors.red, fontSize: 34)),
+                  style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 34
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
               TextSpan(
                   text: 'phone',
-                  style: TextStyle(color: Colors.blue)),
+                  style: TextStyle(
+                      color: Colors.blue
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
               TextSpan(
                   text: 'name',
                   style: TextStyle(
-                      color: Colors.purple, fontWeight: FontWeight.bold)),
+                      color: Colors.purple,
+                      fontWeight: FontWeight.bold
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
               TextSpan(
                   text: 'is',
-                  style: TextStyle(color: Colors.orange, fontSize: 34)),
+                  style: TextStyle(
+                      color: Colors.orange,
+                      fontSize: 34
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 8), // Add space here
               ),
               TextSpan(
                   text: 'Pixel',
-                  style: TextStyle(color: Colors.orange, fontSize: 34)),
+                  style: TextStyle(
+                      color: Colors.orange,
+                      fontSize: 34
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 5), // Add space here
               ),
               TextSpan(
                   text: '5',
-                  style: TextStyle(color: Colors.orange, fontSize: 34)),
+                  style: TextStyle(
+                      color: Colors.orange,
+                      fontSize: 34
+                  )),
               WidgetSpan(
                 child: SizedBox(width: 10), // Add space here
               ),
